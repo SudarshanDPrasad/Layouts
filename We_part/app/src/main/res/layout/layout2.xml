@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F2F2F">
+
+    <TextView
+        android:id="@+id/tvand03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22sp"
+        android:text="Hello AND 03 "
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvand03"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22sp"
+        android:text="Welcome to layouts "
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/circle"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvwelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="90dp"
+        android:drawableEnd="@drawable/ic_name_1"
+        android:drawablePadding="20dp"
+        android:text="Name : Sudarshan "
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/tvage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/tvname"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="Age :30 "
+        android:textColor="#FF0000" />
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#00FF00"
+        android:layout_alignParentBottom="true"
+        android:text="Next"/>
+    
+    <View
+        android:layout_width="140dp"
+        android:layout_height="12dp"
+        android:layout_above="@id/Next"
+        android:background="#C4C4C4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="35dp"
+        android:id="@+id/View3"/>
+    <View
+        android:layout_width="166dp"
+        android:layout_height="26dp"
+        android:layout_above="@id/View3"
+        android:background="#C4C4C4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/View4"/>
+    <View
+        android:layout_width="163dp"
+        android:layout_height="31dp"
+        android:layout_above="@id/View4"
+        android:background="#C4C4C4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/View5"/>
+
+</RelativeLayout>

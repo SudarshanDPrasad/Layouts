@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tvPa"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#C4C4C4"
+            android:drawableLeft="@drawable/ic_vector"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:text="Pending Activation "
+            android:textSize="24dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Septembe,2020"
+            android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/expire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDate"
+            android:text="Status Expired"
+            android:textColor="#FE122E"
+            android:background="@color/white"
+            android:layout_marginLeft="150dp"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ivphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expire"
+            android:layout_marginLeft="180dp"
+            android:background="@color/white"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_emojione_monotone_mobile_phone_off"/>
+
+        <TextView
+            android:id="@+id/tvn5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nexus 5 Insurance"
+            android:background="@color/white"
+            android:layout_marginLeft="135dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/ivphone"/>
+        <TextView
+            android:id="@+id/tvacn"
+            android:layout_width="350dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:text="Active Insurance Now"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_below="@id/tvn5a"
+            android:background="#00FF00" />
+
+        <TextView
+        android:id="@+id/tvdetails"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#C4C4C4"
+            android:layout_below="@id/tvacn"
+            android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:text="Device :                                      LGE Nexus5
+                      Insurance Term :                          12 Months "
+        android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tvcoverage"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@color/white"
+            android:layout_below="@id/tvdetails"
+            android:layout_marginTop="5dp"
+            android:text="Coverage"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvcondition"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="#C4C4C4"
+            android:layout_below="@id/tvcoverage"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="30dp"
+            android:text="All drops and brekerage including cracker screen"
+            android:textSize="25sp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

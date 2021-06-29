@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Nrupul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#DE1717"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="25dp"
+        android:text="Nrupul"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/Dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="#0E0481"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="25dp"
+        android:text="Dev"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/Prateek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#B4A311"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="45dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="10dp"
+        android:text="Prateek"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Aman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#920495"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="25dp"
+        android:text="Aman"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Rahul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F0D66"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="45dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="10dp"
+        android:text="Rahul"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

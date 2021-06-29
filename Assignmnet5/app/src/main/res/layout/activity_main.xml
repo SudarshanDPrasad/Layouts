@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0583EA"
+        android:drawableLeft="@drawable/ic_vector"
+        android:paddingLeft="25dp"
+        android:drawablePadding="30dp"
+        android:text="Login"
+        android:gravity="center|start"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/tvLogin"
+        android:drawableBottom="@drawable/ic_border"
+        android:drawablePadding="10dp"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/tvemail"
+        android:drawableBottom="@drawable/ic_border"
+        android:drawablePadding="10dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/tvusephonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USE PHONE NUMBER"
+        android:layout_below="@+id/tvpassword"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#0583EA" />
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textColor="#858992"/>
+
+    <TextView
+        android:id="@+id/tvforgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btlogin"
+        android:text="Forgot Password?"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"
+        android:textStyle="bold"
+        android:textColor="#858992" />
+
+    <TextView
+        android:id="@+id/tvor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvforgotpassword"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:text="or"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btcontinuewithfacebook"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Continue with facebook"
+        android:drawableLeft="@drawable/ic_ion_logo_facebook"
+        android:background="#3B5998"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btcontinuewuthgoogle"
+        android:layout_width="339dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Continue with Google"
+        android:drawableLeft="@drawable/ic_flat_color_icons_google"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
